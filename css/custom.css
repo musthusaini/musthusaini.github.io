@@ -67,3 +67,47 @@ footer{
 	width: 160px;
 	margin-top: 15px;
 }
+
+/* Rsponsive styling */
+
+@media (max-width: 1199px) 
+{ 
+	.jumbotron h1{
+		font-size: 50px;
+		margin-bottom: 30px;
+	}
+ }
+
+ @media (max-width: 991px) 
+{ 
+	.jumbotron h1{
+		font-size: 50px;
+		margin-bottom: 30px;
+	}
+	#get-involved .col-md-4{
+		padding-bottom: 20px;
+	}
+ }
+
+ @media (max-width: 767px) 
+{ 
+	.jumbotron h1{
+		font-size: 36px;
+		margin-bottom: 30px;
+	}
+	#get-involved .col-md-4{
+		padding-bottom: 20px;
+	}
+	.homepage p{
+		font-size: 15px;
+	}
+	.homepage h2{
+		font-size: 22px;
+	}
+	.homepage h3{
+		font-size: 18px;
+	}
+	.btn-lg{
+		font-size: 18px;
+	}
+ }
